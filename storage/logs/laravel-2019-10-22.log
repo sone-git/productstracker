@@ -1,0 +1,294 @@
+[2019-10-22 00:23:11] local.ERROR: Command "make:controlller" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controlller\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('make:controllle...')
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-10-22 00:25:01] local.ERROR: Command "make:collection" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:collection\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('make:collection')
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-10-22 02:56:56] local.ERROR: SQLSTATE[HY000] [1049] Unknown database 'produtstracker' (SQL: select * from information_schema.tables where table_schema = produtstracker and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'produtstracker' (SQL: select * from information_schema.tables where table_schema = produtstracker and table_name = migrations) at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'produtstracker' at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:70)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(333): Illuminate\\Database\\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(18): Illuminate\\Database\\Connection->select('select * from i...', Array)
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(169): Illuminate\\Database\\Schema\\MySqlBuilder->hasTable('migrations')
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(556): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(91): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(63): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#7 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#13 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2019-10-22 02:57:24] local.ERROR: SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`id`)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`id`)) at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('alter table `pr...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('alter table `pr...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('alter table `pr...')
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(264): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\productstracker\\database\\migrations\\2019_10_21_001054_create_products_table.php(25): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateProductsTable->up()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateProductsTable), 'up')
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 3, false)
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2019-10-22 02:59:54] local.ERROR: SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`name`)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`name`)) at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('alter table `pr...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('alter table `pr...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('alter table `pr...')
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(264): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\productstracker\\database\\migrations\\2019_10_21_001054_create_products_table.php(25): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateProductsTable->up()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateProductsTable), 'up')
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 4, false)
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2019-10-22 03:00:29] local.ERROR: SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`name`)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") (SQL: alter table `products` add constraint `products_category_foreign` foreign key (`category`) references `categories` (`name`)) at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1005 Can't create table `productstracker`.`products` (errno: 150 \"Foreign key constraint is incorrectly formed\") at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('alter table `pr...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('alter table `pr...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('alter table `pr...')
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(264): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Database\\Schema\\Builder->create('products', Object(Closure))
+#6 C:\\xampp\\htdocs\\productstracker\\database\\migrations\\2019_10_21_001054_create_products_table.php(25): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateProductsTable->up()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateProductsTable), 'up')
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 4, false)
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2019-10-22 03:02:14] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `name` varchar(191) not null, `email` varchar(191) not null, `email_verified_at` timestamp null, `password` varchar(191) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `name` varchar(191) not null, `email` varchar(191) not null, `email_verified_at` timestamp null, `password` varchar(191) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(264): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\xampp\\htdocs\\productstracker\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateUsersTable->up()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
+[2019-10-22 03:03:27] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `name` varchar(191) not null, `email` varchar(191) not null, `email_verified_at` timestamp null, `password` varchar(191) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `name` varchar(191) not null, `email` varchar(191) not null, `email_verified_at` timestamp null, `password` varchar(191) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists at C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#3 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(264): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(223): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\xampp\\htdocs\\productstracker\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(360): CreateUsersTable->up()
+#8 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(367): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(178): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(147): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#11 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(96): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(886): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(262): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\productstracker\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\productstracker\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\productstracker\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 {main}
+"} 
